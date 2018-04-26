@@ -1,0 +1,44 @@
+/* INTRO (INDEX) */
+body{
+    background-image: url("https://www.xmple.com/wallpaper/linear-highlight-red-gradient-black-1920x1080-c2-000000-8b0000-l-50-a-270-f-21.svg");
+}
+.logo{
+    height: 230px;
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+    left: 28%;
+    top: 80px;
+}
+
+.glass{
+    /* background styles */
+    position: relative;
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: green; /*for compatibility with older browsers*/
+    background-image: linear-gradient(green, #27ee29);
+    top: 150px;
+
+    /* text styles */
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 100;
+    border-radius: 13px;
+    box-shadow: 0px 1px 4px -2px #333;
+    text-shadow: 0px -1px #333;
+}
+.glass:after{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 50%;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+.glass:hover{
+    background: linear-gradient(#fff100, #fbff00);
+}

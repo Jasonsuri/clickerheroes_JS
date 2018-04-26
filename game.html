@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link href="stylegame.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">
+
+</head>
+<body>
+<div id="coinsdiv" class="coinsdiv">
+    <p id="coins" class="coins">0</p>
+</div>
+<h3 class="killed" id="killed">+1</h3>
+
+<div class="healthbar-img">
+
+    <div id="healthbar-red" class="healthbar-red">
+        <div id="healthbar-green" class="healthbar-green"></div>
+        <h3 class="hp" id="hppoints">10 HP / 10 HP</h3>
+        <h3 class="type" id="type">Finky, LVL 1</h3>
+    </div>
+</div>
+<div class="arena">
+    <div id="enemy1" class="enemy" onclick="kleiner()">
+
+
+    </div>
+</div>
+<div class="world">
+    <h3  id="level" class="level">Forest LVL 1</h3>
+    <h3 id="killedenemys" class="killedenemys"><img src="images/skull.png" > 0 / 10</h3>
+</div>
+<div class="buy">
+    <h3 class="h3shop">Shop</h3>
+    <div class="bord" id="multiplierx2" onclick="multiplierx2(coins)">Multiplier x2
+        <button id="coin1"  class="multiplierx2"><img src="images/coin.png">5</button>
+    </div>
+    <div class="bord">Multiplier x8<button id=""  class="multiplierx2"><img src="images/coin.png">20</button></div>
+    <div class="bord">Multiplier x32<button id=""  class="multiplierx2"><img src="images/coin.png">60</button></div>
+    <div class="bord">Multiplier x128<button id=""  class="multiplierx2"><img src="images/coin.png">240</button></div>
+    <h3 class="h3shop">Helpers:</h3>
+    <div class="bord">TEST</div>
+    <div class="bord">TEST</div>
+    <div class="bord">TEST</div>
+    <div class="bord">TEST</div>
+</div>
+<script src="script.js">
+
+</script>
+</body>
+</html>

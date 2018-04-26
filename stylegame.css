@@ -1,0 +1,215 @@
+body {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/fc/db/a6/fcdba644c6627897a9e28b332b19d87d.png");
+    font-family: 'Londrina Solid', cursive;
+    max-height: 50px;
+    width: 90%;
+}
+
+/* ARENA EN ENEMY */
+.arena {
+    background-image: url("images/arena.png");
+    height: 500px;
+    width: 650px;
+    position: relative;
+    float: right;
+    top: 5.6rem;
+    left: 8rem;
+}
+
+.enemy {
+    background-image: url("images/enemy1.png");
+    height: 400px;
+    width: 400px;
+    position: relative;
+    max-width: 400px;
+    top: -80px;
+    left: 80px;
+
+
+    /* HEALTH BAR */
+}
+
+.healthbar-img {
+    height: 65px;
+    width: 270px;
+    background-image: url("images/healthbar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    z-index: 501;
+    left: 66rem;
+    top: 34rem;
+
+}
+
+.healthbar-green {
+    height: 25px;
+    width: 100%;
+    background-color: limegreen;
+    position: relative;
+    z-index: 500;
+
+}
+
+.healthbar-red {
+    height: 25px;
+    width: 175px;
+    background-color: darkred;
+    position: relative;
+    top: 15px;
+    left: 47px;
+    z-index: 499;
+
+}
+
+.hp {
+    font-size: 2rem;
+    position: relative;
+    bottom: 100px;
+    left: 8px;
+    color: red;
+    text-align: center;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.type{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    z-index: 998;
+    position: relative;
+    bottom: 500px;
+    width: 200px;
+}
+
+
+/* WORLD BAR */
+.world{
+    height: 98px;
+    width: 510px;
+    background-image: url("images/world.png");
+    position: absolute;
+    z-index: 998;
+    left: 900px;
+    top: 13px;
+}
+.level{
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    left: 75px;
+    width: 200px;
+    text-shadow: 3px 3px #333333;
+
+}
+
+.killedenemys{
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    width: 200px;
+    left: 20rem;
+    bottom: 5.5rem;
+    text-shadow: 3px 3px #333333;
+}
+
+.killedenemys > img{
+    position: relative;
+    top: 1rem;
+}
+/* IF ENEMY GOT KILLED */
+
+.killed {
+    font-size: 10rem;
+    position: absolute;
+    display: none;
+    left: 1100px;
+    z-index: 99999999;
+    color: white;
+    text-shadow: 3px 3px red;
+
+}
+
+/* SHOP & COINS */
+.coinsdiv {
+    background-image: url(images/coinbar.png);
+    width: 53.5%;
+    height: 100px;
+    position: relative;
+    left: -10px;
+    top: -60px;
+
+}
+
+.coins {
+    font-size: 4.23rem;
+    position: relative;
+    left: 23rem;
+    top: 0.5rem;
+    color: white;
+    text-shadow: 3px 3px #333333;
+}
+
+.buy {
+    background-image: url("images/buy.png");
+    height: 640px;
+    width: 689px;
+    position: relative;
+    bottom: 50px;
+    z-index: 1;
+    overflow: auto;
+    left: -10px;
+}
+
+.h3shop {
+    color: white;
+    text-shadow: 3px 3px #333333;
+    font-size: 2rem;
+    letter-spacing: 25px;
+    text-align: center;
+    position: relative;
+    bottom: 0.5rem;
+}
+
+.bord {
+    background-image: url("images/bord.png");
+    height: 129px;
+    width: 94.3%;
+    z-index: 999;
+    position: relative;
+    left: 10px;
+    color: white;
+    text-shadow: 3px 3px #333333;
+    font-size: 4rem;
+    letter-spacing: 5px;
+    text-align: center;
+
+}
+
+.bord:hover {
+    background-color: #ffe342;
+}
+
+/* MULTIPLIER */
+
+.multiplierx2 img{
+    position: relative;
+    top: 8px;
+    padding-right: 10px;
+;
+}
+.multiplierx2 {
+    height: 65px;
+    width: 155px;
+    background-color: transparent;
+    border-color: transparent;
+    text-shadow: 2px 2px #333333;
+    color: yellow;
+    font-size: 3rem;
+    position: relative;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
